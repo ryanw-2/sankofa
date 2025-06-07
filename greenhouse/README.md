@@ -1,12 +1,14 @@
-# React + Vite
+# Sankofa Bamboo Greenhouse Research 🎍🌡️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A data-driven platform that supports ecological research and community outreach for the **Sankofa Bamboo Greenhouse**. The project pairs a real-time monitoring dashboard with predictive analytics, giving growers and researchers the insights they need to keep bamboo thriving.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Project Highlights
+- **Real-time monitoring:** A React front-end streams live temperature, humidity, and soil-moisture readings from greenhouse sensors.
+- **Robust data pipeline:** A Node.js + Express API ingests sensor payloads and persists them to **SQL Server**, ensuring durable, query-friendly storage.
+- **Interactive visualizations:** Dynamic charts let users explore historical trends, spot anomalies, and export data for further study.
+- **Forecasting with TensorFlow:** A lightweight sequence model predicts future temperature and humidity, enabling proactive ventilation and irrigation.
+- **Educational focus:** Public-facing pages explain bamboo’s environmental benefits and showcase student research in an accessible format.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
